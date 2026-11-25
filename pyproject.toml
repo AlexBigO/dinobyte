@@ -1,0 +1,39 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0", "wheel"]
+
+[project]
+authors = [
+  {name = "Levana Gesson", email = "lgesson@lpsc.in2p3.fr"},
+  {name = "Alexandre Bigot", email = "alexandre.bigot@iphc.cnrs.fr"},
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+# dependencies = [
+#   "keras>=3.12.4",
+#   "numpy>=2.5.2",
+#   "scikit_learn>=1.9.0",
+#   "tensorflow>=2.21.0"; platform_system != "Darwin",
+#   "tensorflow-macos>=2.21.0"; platform_system == "Darwin",
+#   "pandas>=3.0.5",
+# ]
+description = "Deep learning Intelligence for Nuclear reactiOns."
+# license = {text = "MIT"}
+license-files = ["LICEN[CS]E*"]
+name = "dino"
+readme = "README.md"
+requires-python = ">=3.9"
+version = "0.1.0"
+
+# [project.urls]
+# Homepage = "https://github.com/pypa/sampleproject"
+# Issues = "https://github.com/pypa/sampleproject/issues"
+
+# [project.optional-dependencies]
+# dev = [
+#   "pytest>=7",
+#   "black>=23",
+#   "ruff>=0.6",
+# ]
