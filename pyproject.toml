@@ -22,7 +22,7 @@ classifiers = [
 description = "Deep learning Intelligence for Nuclear reactiOns."
 # license = {text = "MIT"}
 license-files = ["LICEN[CS]E*"]
-name = "dino"
+name = "dinobyte"
 readme = "README.md"
 requires-python = ">=3.9"
 version = "0.1.0"
